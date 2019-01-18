@@ -21,7 +21,18 @@ public class Task1 {
         System.out.println(str.size());
         System.out.println(str);
 
+        for (String eachSet:str
+             ) {
+            int count=0;
+            for (String each:str
+                 ) {
+                if(eachSet.equals(each))
+                count++;
 
+
+            }
+            System.out.println("String: "+eachSet+" count: "+count);
+        }
 
 
 
