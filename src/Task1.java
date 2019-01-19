@@ -24,7 +24,7 @@ public class Task1 {
         for (String eachSet:str
              ) {
             int count=0;
-            for (String each:str
+            for (String each:ls
                  ) {
                 if(eachSet.equals(each))
                 count++;
@@ -34,7 +34,8 @@ public class Task1 {
             System.out.println("String: "+eachSet+" count: "+count);
         }
 
-
+int z=Collections.frequency(ls,"aa");
+        System.out.println(z);
 
         //String name1,name2,name3,name4,name5;
 //        List<String> ls= new ArrayList<>();
