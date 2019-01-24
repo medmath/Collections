@@ -1,6 +1,6 @@
+package Others;
 
-
-    import java.util.Map;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
 

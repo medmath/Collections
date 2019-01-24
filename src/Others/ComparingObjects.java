@@ -1,3 +1,5 @@
+package Others;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -23,7 +25,7 @@ public class ComparingObjects {
 
 
 
-//        for (Person h:emp
+//        for (Others.Person h:emp
 //             ) {
 //            System.out.println("Age: "+h.getAge()+", Name: "+ h.getName());
 //        }

@@ -1,3 +1,5 @@
+package Others;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -28,9 +30,9 @@ public class RunnerClass {
         Collections.sort(emp,lCom);
         System.out.println(emp);
 
-//        Collections.sort(emp, new Comparator<Student>() {
+//        Collections.sort(emp, new Comparator<Others.Student>() {
 //            @Override
-//            public int compare(Student o1, Student o2) {
+//            public int compare(Others.Student o1, Others.Student o2) {
 //                return o1.getAge()-o2.getAge();
 //            }
 //        });

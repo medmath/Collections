@@ -1,3 +1,5 @@
+package Others;
+
 public class Person implements Comparable<Person> {
 
 private String name;
@@ -45,7 +47,7 @@ public void setName(String name){
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Others.Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 '}';

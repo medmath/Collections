@@ -1,3 +1,5 @@
+package Others;
+
 import java.util.*;
 
 public class HashCodeAndEquals {
@@ -34,7 +36,7 @@ public class HashCodeAndEquals {
 
         @Override
         public String toString() {
-            return "Player{" +
+            return "Others.Player{" +
                     "name='" + name + '\'' +
                     ", ID=" + ID +
                     '}';
